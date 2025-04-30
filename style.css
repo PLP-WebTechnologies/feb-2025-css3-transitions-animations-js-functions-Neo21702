@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  #box {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: skyblue;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .animate {
+    transform: rotate(360deg) scale(1.2);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
